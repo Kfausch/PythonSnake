@@ -1,8 +1,3 @@
-#Need a score board class that is capable of traking p1 score and p2 score
-#Need to create a turtle to draw a line down the center of the game
-#Need a class to create the paddles on both side with Y axis movement only
-#Need a class for the ball that start out moving in a random direction, can bounce off walls and paddles, and resets
-
 from turtle import Screen, Turtle
 from paddle import Paddle
 from ball import Ball
@@ -51,18 +46,6 @@ while game_on:
         ball.reset_position()
         scoreboard.r_point()
         time.sleep(1)
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 screen.exitonclick()
